@@ -47,13 +47,19 @@ export default function HomePage() {
            {
     name: "Indo Western",
     image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.37.jpeg",
-    href: "/collections/indo-western"
+    href: "/collections"
   },
-    { name: "Designer Sarees", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42.jpeg", href: "/collections/tops" },
-            { name: "Kurti & Pant", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42 (1).jpeg", href: "/collections/bottoms" },
-            { name: "Bed Sheet & Blanckets", image: "/photos_mayra/download_bedsheet.jpeg", href: "/collections/accessories" },
-            { name: "Shawls & Stoles", image: "/photos_mayra/download_shawl.jpeg", href: "/collections/accessories" },
-          ].map((category) => (
+    // { name: "Designer Sarees", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42.jpeg", href: "/collections/tops" },
+    //         { name: "Kurti & Pant", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42 (1).jpeg", href: "/collections/bottoms" },
+    //         { name: "Bed Sheet & Blanckets", image: "/photos_mayra/download_bedsheet.jpeg", href: "/collections/accessories" },
+    //         { name: "Shawls & Stoles", image: "/photos_mayra/download_shawl.jpeg", href: "/collections/accessories" },
+    //   
+    { name: "Designer Sarees", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42.jpeg", href: "/collections" },
+            { name: "Kurti & Pant", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42 (1).jpeg", href: "/collections" },
+            { name: "Bed Sheet & Blanckets", image: "/photos_mayra/download_bedsheet.jpeg", href: "/collections" },
+            { name: "Shawls & Stoles", image: "/photos_mayra/download_shawl.jpeg", href: "/collections" },
+      
+        ].map((category) => (
             <Link key={category.name} href={category.href} className="group relative overflow-hidden rounded-lg">
               <div className="aspect-square overflow-hidden rounded-lg bg-muted">
                 <Image
