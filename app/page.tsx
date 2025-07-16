@@ -13,7 +13,7 @@ export default function HomePage() {
       <section className="relative h-[70vh] overflow-hidden">
         <div className="absolute inset-0 bg-pink-50">
           <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            src="/photos_mayra/pexels-dhanno-19292779.jpg"
             alt="Elegant woman in fashionable clothing"
             fill
             className="object-cover"
@@ -32,9 +32,9 @@ export default function HomePage() {
             <Button size="lg" asChild>
               <Link href="/collections">Shop Now</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild>
+            {/* <Button size="lg" variant="outline" asChild>
               <Link href="/collections/new-arrivals">New Arrivals</Link>
-            </Button>
+            </Button> */}
           </div>
         </div>
       </section>

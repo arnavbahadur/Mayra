@@ -11,7 +11,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Mayra - Women's Fashion",
   description: "Discover timeless and trendy women's fashion for all ages",
-    generator: 'v0.dev'
+    generator: 'v0.dev',
+    icons: {
+    icon: '/photos_mayra/Screenshot 2025-07-16 at 3.02.29 PM.png',
+  },
 }
 
 export default function RootLayout({

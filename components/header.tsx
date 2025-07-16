@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { cn } from "@/lib/utils"
 import Image from 'next/image';
-import logomayra from '@/app/assets/logo.png';
+import logomayra from '@/public/photos_mayra/ChatGPT Image Jul 14, 2025, 01_21_02 PM.png';
 
 const navigation = [
   { name: "Home", href: "/" },

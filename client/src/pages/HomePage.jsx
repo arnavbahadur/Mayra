@@ -8,7 +8,7 @@ const HomePage = () => {
       {/* Hero Section */}
       <section className="hero-section">
         <div className="hero-image">
-          <img src="/images/hero.jpg" alt="Elegant woman in fashionable clothing" className="hero-img" />
+          <img src="/public/photos_mayra/pexels-dhanno-19292779.jpg" alt="Elegant woman in fashionable clothing" className="hero-img" />
         </div>
         <div className="hero-overlay"></div>
         <div className="hero-content">
