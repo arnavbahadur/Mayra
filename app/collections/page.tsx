@@ -253,6 +253,8 @@ export default function CollectionsPage() {
                       width={400}
                       height={300}
                       className="h-full w-full object-cover transition-transform duration-300 hover:scale-105"
+                      // className="h-full w-full object-contain bg-white p-2 transition-transform duration-300 hover:scale-105"
+
                     />
                   </div>
                 </Card>

@@ -112,16 +112,14 @@ export default function AboutPage() {
         </section>
 
         {/* Sustainability */}
-        <section className="grid gap-8 md:grid-cols-2 md:items-center">
-          <div>
-            <Image
-              src="/placeholder.svg?height=600&width=800"
-              alt="Sustainable fabric production"
-              width={800}
-              height={600}
-              className="rounded-lg object-cover"
-            />
-          </div>
+        <section className="grid gap-8 md:grid-cols-2 md:items-center px-4 md:px-8 py-12">
+          <div className="relative w-full h-64 md:h-[400px] rounded-lg overflow-hidden">
+      <Image
+        src="/photos_mayra/community.png"
+        alt="Sustainable fabric production"
+        fill
+        className="object-cover"   />
+         </div>
           <div>
             <h2 className="text-2xl font-bold">Our Commitment to Sustainability</h2>
             <div className="mt-4 space-y-4 text-muted-foreground">
