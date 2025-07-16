@@ -32,32 +32,32 @@ export default function Footer() {
             <h3 className="mb-4 text-sm font-semibold">Shop</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/collections/new-arrivals" className="text-muted-foreground hover:text-foreground">
+                <Link href="/collections" className="text-muted-foreground hover:text-foreground">
                   New Arrivals
                 </Link>
               </li>
               <li>
-                <Link href="/collections/bestsellers" className="text-muted-foreground hover:text-foreground">
+                <Link href="/collections" className="text-muted-foreground hover:text-foreground">
                   Bestsellers
                 </Link>
               </li>
               <li>
-                <Link href="/collections/dresses" className="text-muted-foreground hover:text-foreground">
+                <Link href="/collections" className="text-muted-foreground hover:text-foreground">
                   Dresses
                 </Link>
               </li>
               <li>
-                <Link href="/collections/tops" className="text-muted-foreground hover:text-foreground">
+                <Link href="/collections" className="text-muted-foreground hover:text-foreground">
                   Tops
                 </Link>
               </li>
               <li>
-                <Link href="/collections/bottoms" className="text-muted-foreground hover:text-foreground">
+                <Link href="/collections" className="text-muted-foreground hover:text-foreground">
                   Bottoms
                 </Link>
               </li>
               <li>
-                <Link href="/collections/accessories" className="text-muted-foreground hover:text-foreground">
+                <Link href="/collections" className="text-muted-foreground hover:text-foreground">
                   Accessories
                 </Link>
               </li>
