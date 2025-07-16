@@ -4,6 +4,7 @@ import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import indo from "app/assets/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.37.jpeg"
 
 export default function HomePage() {
   return (
@@ -43,11 +44,15 @@ export default function HomePage() {
         <h2 className="mb-8 text-center text-3xl font-bold tracking-tight">Shop by Category</h2>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {[
-            { name: "Indo Western", image: "/placeholder.svg?height=600&width=400", href: "/collections/dresses" },
-            { name: "Designer Sarees", image: "/placeholder.svg?height=600&width=400", href: "/collections/tops" },
-            { name: "Kurti & Pant", image: "/placeholder.svg?height=600&width=400", href: "/collections/bottoms" },
-            { name: "Bed Sheet & Blanckets", image: "/placeholder.svg?height=600&width=400", href: "/collections/accessories" },
-            { name: "Shawls & Stoles", image: "/placeholder.svg?height=600&width=400", href: "/collections/accessories" },
+           {
+    name: "Indo Western",
+    image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.37.jpeg",
+    href: "/collections/indo-western"
+  },
+    { name: "Designer Sarees", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42.jpeg", href: "/collections/tops" },
+            { name: "Kurti & Pant", image: "/photos_mayra/WhatsApp Image 2025-07-13 at 08.28.42 (1).jpeg", href: "/collections/bottoms" },
+            { name: "Bed Sheet & Blanckets", image: "/photos_mayra/download_bedsheet.jpeg", href: "/collections/accessories" },
+            { name: "Shawls & Stoles", image: "/photos_mayra/download_shawl.jpeg", href: "/collections/accessories" },
           ].map((category) => (
             <Link key={category.name} href={category.href} className="group relative overflow-hidden rounded-lg">
               <div className="aspect-square overflow-hidden rounded-lg bg-muted">
