@@ -123,11 +123,11 @@ export default function ContactPage() {
                 <div>
                   <h3 className="font-medium">Our Store</h3>
                   <address className="not-italic text-muted-foreground">
-                    123 Fashion Avenue
+                   Plot No. 31
                     <br />
-                    New York, NY 10001
+                    Sch. No. 54, A.B. Road, Behind Westside, Vijaynagar.
                     <br />
-                    United States
+                    Indore, (M.P.) India.
                   </address>
                 </div>
               </div>
@@ -135,15 +135,16 @@ export default function ContactPage() {
                 <Phone className="mr-3 h-5 w-5 text-muted-foreground" />
                 <div>
                   <h3 className="font-medium">Phone</h3>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                  <p className="text-sm text-muted-foreground">Mon-Fri: 9am-6pm EST</p>
+                  <p className="text-muted-foreground">+91 70495-96970</p>
+                  <p className="text-muted-foreground">+91 70495-96978</p>
+                  <p className="text-sm text-muted-foreground">Mon-Fri: 9am-6pm IST</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <Mail className="mr-3 h-5 w-5 text-muted-foreground" />
                 <div>
                   <h3 className="font-medium">Email</h3>
-                  <p className="text-muted-foreground">customer.service@elegance.com</p>
+                  <p className="text-muted-foreground">mayra.clothingstore@gmail.com</p>
                   <p className="text-sm text-muted-foreground">We aim to respond within 24 hours</p>
                 </div>
               </div>
@@ -154,16 +155,12 @@ export default function ContactPage() {
             <h2 className="text-2xl font-bold mb-6">Store Hours</h2>
             <div className="space-y-2">
               <div className="flex justify-between">
-                <span>Monday - Friday</span>
-                <span>10:00 AM - 8:00 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span>Saturday</span>
-                <span>10:00 AM - 6:00 PM</span>
+                <span>Monday - Saturday</span>
+                <span>11:30 AM - 21:00 PM</span>
               </div>
               <div className="flex justify-between">
                 <span>Sunday</span>
-                <span>12:00 PM - 5:00 PM</span>
+                <span>14:00 PM - 20:30 PM</span>
               </div>
             </div>
           </div>
@@ -174,17 +171,17 @@ export default function ContactPage() {
               Our dedicated customer service team is here to help with any questions or concerns.
             </p>
             <div className="space-y-2">
-              <p className="text-sm">
+              {/* <p className="text-sm">
                 <span className="font-medium">Returns & Exchanges:</span>{" "}
                 <span className="text-muted-foreground">returns@elegance.com</span>
               </p>
               <p className="text-sm">
                 <span className="font-medium">Order Status:</span>{" "}
                 <span className="text-muted-foreground">orders@elegance.com</span>
-              </p>
+              </p> */}
               <p className="text-sm">
                 <span className="font-medium">Wholesale Inquiries:</span>{" "}
-                <span className="text-muted-foreground">wholesale@elegance.com</span>
+                <span className="text-muted-foreground">mayra.clothingstore@gmail.com</span>
               </p>
             </div>
           </div>

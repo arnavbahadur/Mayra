@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container py-10 md:py-16">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">ELEGANCE</h3>
+            <h3 className="text-lg font-semibold">Mayra</h3>
             <p className="text-sm text-muted-foreground">
               Timeless fashion for the modern woman. Quality clothing designed to make you feel confident and beautiful.
             </p>
@@ -105,7 +105,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-10 border-t pt-6 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Elegance. All rights reserved.</p>
+        <p>
+  © {new Date().getFullYear()} Mayra <small style={{ fontSize: '0.6em' }}>By Vardhman Agencies</small>. All rights reserved.
+</p>
+
         </div>
       </div>
     </footer>

@@ -43,10 +43,11 @@ export default function HomePage() {
         <h2 className="mb-8 text-center text-3xl font-bold tracking-tight">Shop by Category</h2>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
           {[
-            { name: "Dresses", image: "/placeholder.svg?height=600&width=400", href: "/collections/dresses" },
-            { name: "Tops", image: "/placeholder.svg?height=600&width=400", href: "/collections/tops" },
-            { name: "Bottoms", image: "/placeholder.svg?height=600&width=400", href: "/collections/bottoms" },
-            { name: "Accessories", image: "/placeholder.svg?height=600&width=400", href: "/collections/accessories" },
+            { name: "Indo Western", image: "/placeholder.svg?height=600&width=400", href: "/collections/dresses" },
+            { name: "Designer Sarees", image: "/placeholder.svg?height=600&width=400", href: "/collections/tops" },
+            { name: "Kurti & Pant", image: "/placeholder.svg?height=600&width=400", href: "/collections/bottoms" },
+            { name: "Bed Sheet & Blanckets", image: "/placeholder.svg?height=600&width=400", href: "/collections/accessories" },
+            { name: "Shawls & Stoles", image: "/placeholder.svg?height=600&width=400", href: "/collections/accessories" },
           ].map((category) => (
             <Link key={category.name} href={category.href} className="group relative overflow-hidden rounded-lg">
               <div className="aspect-square overflow-hidden rounded-lg bg-muted">
@@ -67,7 +68,7 @@ export default function HomePage() {
       </section>
 
       {/* New Arrivals */}
-      <section className="bg-muted/30 py-16">
+      {/* <section className="bg-muted/30 py-16">
         <div className="container">
           <div className="mb-8 flex items-center justify-between">
             <h2 className="text-3xl font-bold tracking-tight">New Arrivals</h2>
@@ -103,7 +104,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Testimonials */}
       <section className="container py-16">
@@ -113,17 +114,17 @@ export default function HomePage() {
             {
               quote:
                 "The quality of the clothing is exceptional. I've been a loyal customer for years and have never been disappointed.",
-              author: "Sarah J., 42",
+              author: "Aashika P., 23",
             },
             {
               quote:
                 "I love how inclusive the sizing is. As a curvy woman, it's refreshing to find stylish clothes that fit perfectly.",
-              author: "Michelle T., 35",
+              author: "Anukriti B., 24",
             },
             {
               quote:
                 "The designs are timeless yet modern. I can wear these pieces for years and still look fashionable.",
-              author: "Emma L., 28",
+              author: "Apoorva G., 22",
             },
           ].map((testimonial, index) => (
             <Card key={index} className="bg-muted/30">
