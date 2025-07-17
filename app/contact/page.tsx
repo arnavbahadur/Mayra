@@ -55,65 +55,7 @@ export default function ContactPage() {
       </div>
 
       <div className="grid gap-10 md:grid-cols-2">
-        <div>
-          <div className="rounded-lg border p-6">
-            <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="space-y-2">
-                <Label htmlFor="name">Your Name</Label>
-                <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="email">Email Address</Label>
-                <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="phone">Phone Number (Optional)</Label>
-                <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} />
-              </div>
-              <div className="space-y-2">
-                <Label>Subject</Label>
-                <RadioGroup
-                  value={formData.subject}
-                  onValueChange={handleRadioChange}
-                  className="flex flex-col space-y-1"
-                >
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="general" id="general" />
-                    <Label htmlFor="general">General Inquiry</Label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="order" id="order" />
-                    <Label htmlFor="order">Order Status</Label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="returns" id="returns" />
-                    <Label htmlFor="returns">Returns & Exchanges</Label>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <RadioGroupItem value="other" id="other" />
-                    <Label htmlFor="other">Other</Label>
-                  </div>
-                </RadioGroup>
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="message">Your Message</Label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  rows={5}
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                />
-              </div>
-              <Button type="submit" className="w-full">
-                Send Message
-              </Button>
-            </form>
-          </div>
-        </div>
-
+       
         <div className="space-y-8">
           <div className="rounded-lg border p-6">
             <h2 className="text-2xl font-bold mb-6">Contact Information</h2>
@@ -185,7 +127,66 @@ export default function ContactPage() {
               </p>
             </div>
           </div>
+           </div>
+         <div>
+          <div className="rounded-lg border p-6">
+            <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div className="space-y-2">
+                <Label htmlFor="name">Your Name</Label>
+                <Input id="name" name="name" value={formData.name} onChange={handleChange} required />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="email">Email Address</Label>
+                <Input id="email" name="email" type="email" value={formData.email} onChange={handleChange} required />
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="phone">Phone Number (Optional)</Label>
+                <Input id="phone" name="phone" type="tel" value={formData.phone} onChange={handleChange} />
+              </div>
+              <div className="space-y-2">
+                <Label>Subject</Label>
+                <RadioGroup
+                  value={formData.subject}
+                  onValueChange={handleRadioChange}
+                  className="flex flex-col space-y-1"
+                >
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="general" id="general" />
+                    <Label htmlFor="general">General Inquiry</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="order" id="order" />
+                    <Label htmlFor="order">Order Status</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="returns" id="returns" />
+                    <Label htmlFor="returns">Returns & Exchanges</Label>
+                  </div>
+                  <div className="flex items-center space-x-2">
+                    <RadioGroupItem value="other" id="other" />
+                    <Label htmlFor="other">Other</Label>
+                  </div>
+                </RadioGroup>
+              </div>
+              <div className="space-y-2">
+                <Label htmlFor="message">Your Message</Label>
+                <Textarea
+                  id="message"
+                  name="message"
+                  rows={5}
+                  value={formData.message}
+                  onChange={handleChange}
+                  required
+                />
+              </div>
+              <Button type="submit" className="w-full">
+                Send Message
+              </Button>
+            </form>
+          </div>
         </div>
+
       </div>
     </div>
   )
