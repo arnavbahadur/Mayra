@@ -33,7 +33,7 @@ export default function AboutPage() {
           </div>
           <div className="order-1 md:order-2">
             <Image
-              src="/placeholder.svg?height=600&width=800"
+              src="/photos_mayra/mayra_shop.webp"
               alt="Elegance founder in the design studio"
               width={800}
               height={600}
@@ -80,17 +80,17 @@ export default function AboutPage() {
               {
                 name: "Sangeeta Chordiya",
                 role: "Angel Investor",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/photos_mayra/aunty.jpeg",
               },
               {
                 name: "Pravesh Chordiya",
                 role: "Founder & Sales Director",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/photos_mayra/pravesh.jpeg",
               },
               {
                 name: "Vinni Chordiya",
                 role: "Founder & Creative Director",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/photos_mayra/vinni.jpeg",
               },
            
             ].map((member, index) => (
@@ -101,7 +101,8 @@ export default function AboutPage() {
                     alt={member.name}
                     width={160}
                     height={160}
-                    className="object-cover w-full h-full"
+                    className="object-cover object-[center_15%] w-full h-full"
+
                   />
                 </div>
                 <h3 className="text-lg font-semibold">{member.name}</h3>
